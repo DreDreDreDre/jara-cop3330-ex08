@@ -32,5 +32,7 @@ public class App
         System.out.println(numPeople + " people with " + numPizzas + " pizzas (" + totalNumSlices + " slices)");
         System.out.println("Each person gets " + eachPersonSliceInt + " pieces of pizza.");
         System.out.println("There are " + leftOvers + " leftover pieces.");
+
+        sc.close();
     }
 }
